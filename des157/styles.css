@@ -1,0 +1,36 @@
+body {
+    background: #222;
+    color: snow;
+    font-family: 'Exo 2', sans-serif;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+a:hover {
+    color: snow;
+}
+
+#banner {
+    background: gray;
+    width: 800px;
+    height: 250px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    border: 1px solid snow;
+    margin: 20px;
+    flex: 1;
+}
+
