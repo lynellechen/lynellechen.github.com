@@ -44,7 +44,7 @@ header h1 {
 }
 
 header h2 {
-    margin: 0 0 20px 0;
+    margin: 0;
     font-size: 25px;
     color: #2de3ec;
 }
@@ -139,7 +139,7 @@ footer p {
     75% {
         background: #0abdc6;
         box-shadow: 0 0 5px #0abdc6;
-        transform: translateY(240px);
+        transform: translateY(243px);
     }
 
     100% {
