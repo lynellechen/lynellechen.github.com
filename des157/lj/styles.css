@@ -32,9 +32,9 @@ h2 {
 }
 
 #container {
-    max-width: 520px;
+    max-width: 525px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 header a {
@@ -82,7 +82,7 @@ main, .post {
 article {
     padding: 25px;
     max-width: 500px;
-    margin: auto;
+    margin: 0 auto 25px auto;
     border: 2px solid #0abdc6;
     color: #0abdc6;
     transition: box-shadow 0.3s;
