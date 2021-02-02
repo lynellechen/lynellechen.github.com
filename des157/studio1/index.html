@@ -3,35 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build a Mad Lib</title>
+    <title>Recipe Mad Libs</title>
+
+    <!-- Normalize -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <h1>Build a Mad Lib Script</h1>
-    </header>
-    
     <main>
-        <form id="myform">
-            <label for="noun1">Provide a noun</label>
-            <input type="text" id="noun1">
+        <section>
+            <h1>Recipe Mad Libs</h1>
 
-            <label for="noun2">Provide another noun</label>
-            <input type="text" id="noun2">
+            <form id="myform">
+                <label for="noun">Noun</label>
+                <input type="text" id="noun">
 
-            <label for="adj">Provide an adjective</label>
-            <input type="text" id="adj">
+                <label for="verb1">Verb 1</label>
+                <input type="text" id="verb1">
 
-            <label for="verb">Provide a verb</label>
-            <input type="text" id="verb">
+                <label for="verb2">Verb 2</label>
+                <input type="text" id="verb2">
 
-            <input type="submit" value="Send">
-        </form>
+                <label for="adj">Adjective</label>
+                <input type="text" id="adj">
 
-        <article id="madlib"></article>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+
+        <section>
+            <article id="madlib"></article>
+            <img src="images/desserts.png" alt="desserts">
+        </section>
     </main>
+
+    <footer>
+        <a href="mailto:&#108;&#101;&#121;&#099;&#104;&#101;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">Lynelle Chen</a>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
 </body>
 </html>

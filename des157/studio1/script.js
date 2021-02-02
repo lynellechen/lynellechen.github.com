@@ -7,14 +7,14 @@
     myForm.addEventListener('submit', function(e) {
         e.preventDefault();
 
-        const noun1 = document.querySelector('#noun1').value;
-        const noun2 = document.querySelector('#noun2').value;
+        const noun = document.querySelector('#noun').value;
+        const verb1 = document.querySelector('#verb1').value;
+        const verb2 = document.querySelector('#verb2').value;
         const adj = document.querySelector('#adj').value;
-        const verb = document.querySelector('#verb').value;
 
         let myText;
-        if (noun1 && noun2 && adj && verb) {
-            myText = `Here are the words: ${noun1}, ${noun2}, ${adj}, and ${verb}`;
+        if (noun && verb1 && verb2 && adj) {
+            myText = `To make a(n) ${noun}, you need some flour, eggs, and sugar. First, ${verb1} the ingredients together. Then add them to a(n) pan and bake until ${adj}. Finally, take out the ${noun} and let it rest for a few minutes before ${verb2}ing your amazing work.`
         } else {
             myText = "Please give me words so I can make your Mad Lib!";
         }
