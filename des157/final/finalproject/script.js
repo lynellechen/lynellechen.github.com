@@ -38,6 +38,7 @@
                 eachImg.getElementsByTagName('img')[0].src = `images/${place}/${myImages[currentImage]}`;
             }
 
+            // stop slideshow 
             eachImg.addEventListener('mouseout', function() {
                 clearInterval(next);
                 document.querySelector('h1').innerHTML = "China 2019";
@@ -45,8 +46,6 @@
             
         });
     }
-
-
 
 
     //Opening Overlay ----------------------------
